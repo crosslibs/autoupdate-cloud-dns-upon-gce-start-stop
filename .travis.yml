@@ -1,4 +1,7 @@
 language: python
+python:
+  - 3.8
+script: python3 -c "print('No tests to run')"
 deploy:
   provider: gcs
   access_key_id: GOOGOYN22H5NZDMWPSRFPFZJ
